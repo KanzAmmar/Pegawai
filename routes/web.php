@@ -9,7 +9,3 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
-
-Route::get('/cek', function () {
-    return view('cek');
-});
