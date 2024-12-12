@@ -14,7 +14,9 @@
 
 <body>
 
-    @include('components.sidebar')
+    <x-nav></x-nav>
+
+    <x-sidebar></x-sidebar>
 
 </body>
 
